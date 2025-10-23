@@ -29,6 +29,6 @@ latest_posts:
 
 I am a Postdoctoral Researcher at Saarland University, focusing on trustworthy multilingual natural language processing (NLP). My research explores cross-lingual generalization, interpretive variation, and bias in multilingual representations, emphasizing transparency, reliability, and inclusivity in language technologies.
 
-I completed my PhD in Computational Linguistics at Saarland University and hold degrees in Computer Science and Mathematics. Outside of research, I enjoy reading comics, and traveling.
+I completed my PhD in Computational Linguistics at Saarland University and hold degrees in Computer Science and Mathematics. Outside of research, I enjoy reading comics, and traveling..
 
 ========
