@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+menu: false
 subtitle: <a href="https://www.uni-saarland.de/en/home.html">Saarland University</a>
 
 #Address. Contacts. Motto. Etc.
