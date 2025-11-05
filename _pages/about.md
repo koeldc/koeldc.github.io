@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+menu: false
+subtitle: <a href="https://www.uni-saarland.de/en/home.html">Saarland University</a>
 
 profile:
   align: right
@@ -10,7 +11,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Building: A2.2, Room: 1.15 </p>
-    <p>Universität des Saarlandes Campus</p>
+    <p>Saarland University</p>
     <p>Saarbrücken, Germany</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -27,6 +28,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Postdoctoral Researcher at Saarland University, focusing on trustworthy multilingual natural language processing (NLP). My research explores cross-lingual generalization, interpretive variation, and bias in multilingual representations, emphasizing transparency, reliability, and inclusivity in language technologies.
+I am a Postdoctoral Researcher at Saarland University, focusing on trustworthy multilingual natural language processing (NLP). My research explores cross-lingual generalization, interpretive variability, and robustness of models across languages and domains.
 
-I completed my PhD in Computational Linguistics at Saarland University and hold degrees in Computer Science and Mathematics. Outside of research, I enjoy reading comics, and traveling.
+I completed my PhD in Computational Linguistics at Saarland University and hold degrees in Computer Science and Mathematics. Outside of research, I enjoy reading comics and traveling.
