@@ -38,6 +38,6 @@ The `.github/workflows/deploy.yml` workflow:
 - Triggers on pushes to main/master
 - Builds the Jekyll site with custom plugins
 - Deploys to gh-pages using `JamesIves/github-pages-deploy-action@v4`
-- Uses `clean: true` by default (force overwrites gh-pages)
+- The action's `clean` parameter defaults to `true` (force overwrites gh-pages), though it's not explicitly set in the workflow configuration
 
 This workflow has `workflow_dispatch` enabled, so it can be triggered manually if needed.

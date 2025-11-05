@@ -14,8 +14,8 @@ causing the GitHub Pages build to fail with: `Unknown tag 'toc' in /_layouts/pos
 - This caused the build to fail
 
 ### Timeline
-- Commit `2b825ffc` (good): Contains only built static files (HTML, CSS, JS, assets)
-- Commits `8648994`, `e2234cd` (bad): Contains entire source code (_layouts, _config.yml, Gemfile, etc.)
+- **Last working commit** (2b825ffc): Contains only built static files (HTML, CSS, JS, assets)
+- **Problematic commits** (8648994, e2234cd): Contains entire source code (_layouts, _config.yml, Gemfile, etc.)
 
 ## Solution
 This commit triggers the deploy.yml workflow which will:
