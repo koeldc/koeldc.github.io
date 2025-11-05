@@ -23,16 +23,9 @@
     {
       "name": "Saarland University",
       "position": "Postdoctoral Researchers",
-      "url": "https://example.com",
+      "url": "https://example.com"
     }
   ],
- 
-  "education": [
-    {
 
-    }
-  ],
- 
-
- 
+  "education": [{}]
 }
