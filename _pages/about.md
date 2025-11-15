@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: /
+permalink: /about/
 menu: false
 subtitle: <a href="https://www.uni-saarland.de/en/home.html">Saarland University</a>
 
@@ -9,26 +9,29 @@ profile:
   align: right
   image: profile.png
   image_circular: false # crops the image to make it circular
-  more_info: >
+  more_info: &gt;
     <p>Building: A2.2, Room: 1.15 </p>
     <p>Saarland University</p>
     <p>Saarbrücken, Germany</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-I am a Postdoctoral Researcher at Saarland University, passionate about advancing equitable, pluralistic, and safe AI systems that genuinely serve everyone, with multilinguality at the heart of that vision. My current research focuses on fairness, pluralistic alignment, and human-centered approaches to developing more equitable AI.
-I have a background in mathematics and computer science, and a PhD in computational linguistics. My previous work examined how non-native and non-standard language varieties were often misrepresented in NLP systems. Building on that, I’m now exploring how similar challenges emerge in the era of large language models and what this means for designing more trustworthy systems.
+I am a Postdoctoral Researcher at Saarland University, passionate about advancing safe and inclusive AI systems with multilinguality at the heart of that vision. My current research focuses on fairness, pluralistic alignment, and human-centered approaches to developing AI.
+
+I have a background in mathematics and computer science, and a PhD in computational linguistics. My previous work examined how non-native and non-standard language varieties were often misrepresented in NLP systems. Building on that, I'm now exploring how similar challenges emerge in the era of large language models and what this means for designing more trustworthy systems.
+
 Outside of research, I enjoy reading comics and traveling.
-Feel free to reach out if you’d like to chat about any of the above!
+
+Feel free to reach out if you'd like to chat about any of the above!
