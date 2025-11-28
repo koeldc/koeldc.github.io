@@ -1,0 +1,62 @@
+# Site settings
+title: "Koel Dutta Chowdhury"
+url: "https://koeldc.github.io"   # the full URL of your site
+baseurl: ""                       # the subpath of your site, e.g. /repo (leave empty for user site)
+description: >
+  I am a Postdoctoral Researcher at Saarland University, passionate about advancing equitable,
+  pluralistic, and safe AI systems that genuinely serve everyone, with multilinguality at the
+  heart of that vision. My current research focuses on fairness, pluralistic alignment, and
+  human-centered approaches to developing more equitable AI.
+  I have a background in mathematics and computer science, and a PhD in computational linguistics.
+  My previous work examined how non-native and non-standard language varieties were often
+  misrepresented in NLP systems. Building on that, I'm now exploring how similar challenges
+  emerge in the era of large language models and what this means for designing more trustworthy
+  systems. Outside of research, I enjoy reading comics and traveling. Feel free to reach out if
+  you'd like to chat about any of the above!
+
+# Author / contact metadata (optional)
+author:
+  name: "Koel Dutta Chowdhury"
+  affiliation: "Postdoctoral Researcher, Saarland University"
+  # email: "you@example.com"    # uncomment and set if you want a contact email published
+  bio: >
+    Postdoctoral Researcher at Saarland University working on fairness, pluralistic alignment,
+    and human-centered approaches for equitable AI. Background in mathematics, computer science,
+    and computational linguistics.
+
+# Jekyll / Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+
+# Collections
+collections:
+  news:
+    output: true
+
+# Provide default front-matter values for news items so layout is applied automatically
+defaults:
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: news
+
+# Common sensible defaults (do not change theme here unless you intend to)
+permalink: /:categories/:year/:month/:day/:title/
+paginate: 10
+
+# Files / directories to exclude from the published site (adjust if needed)
+exclude:
+  - README.md
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle
+
+# Additional config you may want to keep or add for SEO / feed (optional)
+# plugins:
+#   - jekyll-feed
+#   - jekyll-seo-tag
