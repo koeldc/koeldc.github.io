@@ -1,0 +1,9 @@
+<ul>
+  {% assign news_sorted = site.news | sort: "date" | reverse %}
+  {% for item in news_sorted %}
+    <li>
+      <a>{{ item.title }}</a>
+      
+    </li>
+  {% endfor %}
+</ul>
