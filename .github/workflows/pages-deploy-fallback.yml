@@ -1,0 +1,32 @@
+# File: .github/workflows/pages-deploy-fallback.yml
+name: Deploy Pages (fallback to gh-pages)
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: {}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: pages-deploy-fallback
+      cancel-in-progress: false
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Healthcheck - verify connectivity to GitHub API
+        run: |
+          set -euo pipefail
+          echo "Checking connectivity to api.github.com..."
+          curl -I https://api.github.com -m 10
+
+      - name: Deploy to gh-pages (fallback)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
