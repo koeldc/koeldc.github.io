@@ -9,10 +9,6 @@ profile:
   align: right
   image: profile.png
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Building: A2.2, Room: 1.15 </p>
-    <p>Saarland University</p>
-    <p>Saarbrücken, Germany</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
