@@ -3,7 +3,6 @@ layout: about
 title: about
 permalink: /
 menu: false
-subtitle: <a href="https://www.uni-saarland.de/en/home.html">Saarland University</a>
 
 profile:
   align: right
@@ -24,7 +23,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Postdoctoral Researcher at Saarland University, passionate about advancing equitable, pluralistic, and safe AI systems that genuinely serve everyone, with multilinguality at the heart of that vision. My current research focuses on fairness, pluralistic alignment, and human-centered approaches to developing more equitable AI.
+I am a Postdoctoral Researcher at <a href="https://www.uni-saarland.de/en/home.html">Saarland University</a>, passionate about advancing equitable, pluralistic, and safe AI systems that genuinely serve everyone, with multilinguality at the heart of that vision. My current research focuses on fairness, pluralistic alignment, and human-centered approaches to developing more equitable AI.
 I have a background in mathematics and computer science, and a PhD in computational linguistics. My previous work examined how non-native and non-standard language varieties were often misrepresented in NLP systems. Building on that, I’m now exploring how similar challenges emerge in the era of large language models and what this means for designing more trustworthy systems.
 Outside of research, I enjoy reading comics and traveling.
 Feel free to reach out if you’d like to chat about any of the above!
