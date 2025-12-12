@@ -1,0 +1,57 @@
+# File: .github/workflows/cleanup-branches.yml
+name: Cleanup Stale Branches
+
+on:
+  workflow_dispatch:
+    inputs:
+      branches_to_delete:
+        description: 'Comma-separated list of branch names to delete'
+        required: true
+        default: 'copilot/add-new-news-posts,copilot/add-three-news-posts'
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Delete specified branches
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          
+          # Parse comma-separated branch names
+          IFS=',' read -ra BRANCHES <<< "${{ inputs.branches_to_delete }}"
+          
+          for branch in "${BRANCHES[@]}"; do
+            # Trim whitespace
+            branch=$(echo "$branch" | xargs)
+            
+            # Skip if empty
+            if [ -z "$branch" ]; then
+              continue
+            fi
+            
+            # Skip protected branches
+            if [ "$branch" = "main" ] || [ "$branch" = "gh-pages" ]; then
+              echo "⚠️  Skipping protected branch: $branch"
+              continue
+            fi
+            
+            # Check if branch exists
+            if git ls-remote --heads origin "$branch" | grep -q "$branch"; then
+              echo "🗑️  Deleting branch: $branch"
+              git push origin --delete "$branch" || echo "Failed to delete $branch"
+            else
+              echo "ℹ️  Branch does not exist: $branch"
+            fi
+          done
+          
+          echo "✅ Branch cleanup completed"
