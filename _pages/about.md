@@ -10,9 +10,9 @@ profile:
   image: profile.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p><small>Building: A2.2, Room: 1.15 </small></p>
-    <p><small>Saarland University</small></p>
-    <p><small>Saarbrücken, Germany</small></p>
+    <p><tiny>Building: A2.2, Room: 1.15 </tiny></p>
+    <p><tiny>Saarland University</tiny></p>
+    <p><tiny>Saarbrücken, Germany</tiny></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
