@@ -286,3 +286,31 @@ ul.timeline li::before{content:"";min-height:2.5rem;width:1px;background:var(--g
     margin: 0 auto 1rem !important;
   }
 }
+
+/* ---- profile image: show whole image (no crop) and limit height ---- */
+@media (min-width: 576px) {
+  /* more specific selector to override theme rules */
+  .post .profile {
+    width: 240px !important;      /* adjust this value if you want wider/narrower */
+    max-width: 35% !important;
+  }
+
+  .post .profile img,
+  .post .profile picture,
+  .post .profile .responsive-img-srcset {
+    width: auto !important;       /* keep natural aspect ratio */
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: 200px !important; /* adjust this to taste: 180/200/220px */
+    object-fit: contain !important;/* do not crop the image */
+    display: block !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .post .profile {
+    width: 100% !important;
+    float: none !important;
+    margin: 0 auto 1rem !important;
+  }
+}
