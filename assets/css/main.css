@@ -260,3 +260,29 @@ ul.timeline li::before{content:"";min-height:2.5rem;width:1px;background:var(--g
 /* Slightly soften the site header background & border */ .navbar { background: rgba(255,255,255,0.96); border-bottom: 1px solid rgba(15,23,42,0.04); }
 
 /* Publication boxes / lists spacing improvements */ .bibliography li { margin-bottom: 1.15rem; padding-bottom: 0.6rem; border-bottom: 1px solid rgba(15,23,42,0.03); }
+
+/* ---- profile image size override (put at end of main.css) ---- */
+@media (min-width: 576px) {
+  .profile {
+    width: 270px !important;
+    max-width: 35% !important;
+  }
+
+  .profile img,
+  .profile picture,
+  .profile .responsive-img-srcset {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 360px !important;
+    object-fit: cover !important;
+    display: block !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .profile {
+    width: 100% !important;
+    float: none !important;
+    margin: 0 auto 1rem !important;
+  }
+}
