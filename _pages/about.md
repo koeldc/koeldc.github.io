@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: /
+permalink: /about/
 menu: false
 subtitle: <a href="https://www.uni-saarland.de/en/home.html">Saarland University</a>
 
