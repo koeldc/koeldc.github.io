@@ -273,7 +273,7 @@ ul.timeline li::before{content:"";min-height:2.5rem;width:1px;background:var(--g
   .profile .responsive-img-srcset {
     width: 100% !important;
     height: auto !important;
-    max-height: 360px !important;
+    max-height: 320px !important;
     object-fit: cover !important;
     display: block !important;
   }
