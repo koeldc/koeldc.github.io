@@ -1,1 +1,31 @@
-{"basics":{"name":"Koel Dutta Chowdhury","label":"Postdoctoral Researcher","image":"","url":"https://koeldc.github.io/","location":{"address":"","postalCode":"","city":"","countryCode":"","region":""},"profiles":[{"network":"Twitter","username":"KoelDC","url":"https://x.com/KoelDC"}]},"work":[{"name":"Saarland University","position":"Postdoctoral Researchers","url":"https://example.com",}],"education":[{}],}
+{
+  "basics": {
+    "name": "Koel Dutta Chowdhury",
+    "label": "Postdoctoral Researcher",
+    "image": "",
+    "url": "https://koeldc.github.io/",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "KoelDC",
+        "url": "https://x.com/KoelDC"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Saarland University",
+      "position": "Postdoctoral Researchers",
+      "url": "https://example.com"
+    }
+  ],
+
+  "education": [{}]
+}
