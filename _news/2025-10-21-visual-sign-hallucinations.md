@@ -1,5 +1,6 @@
 ---
-title: '📸 New <a href="https://arxiv.org/pdf/2510.18439">preprint</a> on visual signals for detecting hallucinations in sign language translation!'
+title: 🌟 Our paper <a href="https://arxiv.org/pdf/2510.18439">Grounding or Guessing? Visual Signals for Detecting Hallucinations in Sign Language Translation</a> has been accepted to ICLR 2026!
 date: 2025-10-21
 layout: news
+~                                 
 ---
