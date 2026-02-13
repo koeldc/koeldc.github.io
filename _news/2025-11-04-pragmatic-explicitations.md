@@ -1,5 +1,5 @@
 ---
-title: '📚 New <a href="https://arxiv.org/abs/2511.02721">preprint</a> on pragmatic explicitations in translation!'
-date: 2025-11-04
+title: '🎉 <a href="https://arxiv.org/abs/2511.02721">PragExTra: A Multilingual Corpus of Pragmatic Explicitation in Translation</a> was accepted to LREC 2026!'
+date: 2026-02-13
 layout: news
 ---
