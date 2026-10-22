@@ -3,16 +3,14 @@ layout: about
 title: about
 permalink: /
 menu: false
-subtitle: <a href="https://www.uni-saarland.de/en/home.html">Saarland University</a>
+subtitle: <a href="https://www.utn.de/en/">University of Technology Nuremberg</a>
 
 profile:
   align: right
-  image: profile.png
+  image: profile-natural.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p><tiny>Building: A2.2, Room: 1.15 </tiny></p>
-    <p><tiny>Saarland University</tiny></p>
-    <p><tiny>Saarbrücken, Germany</tiny></p>
+    <p>University of Technology Nuremberg</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -28,10 +26,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
- I am a Postdoctoral Researcher at Saarland University, working on advancing equitable, pluralistic, and safe AI systems that genuinely serve everyone, with multilinguality at the core of this vision. My current research focuses on fairness, pluralistic alignment, and human-centered approaches to developing more equitable AI.
+I am a postdoctoral researcher in the Natural Language Learning & Generation (NLLG) Lab at TU Nürnberg.
 
-  I have a background in mathematics and computer science, and a PhD in computational linguistics. My previous work examined how non-native and non-standard language varieties are often misrepresented in NLP systems, and I continue to explore similar challenges in modern AI.
+My research focuses on **multilingual language models** and **trustworthy AI**. I study how models represent and use knowledge and linguistic information, and how to evaluate their behaviour reliably.
 
-  Outside of research, I enjoy reading comics and traveling. Feel free to reach out if
-  you'd like to chat about any of the above!
+My work examines how models combine [internal knowledge with external evidence](/publications/#fondueqa), how [multilingual representations relate to social bias](/publications/#stereotypes), and how [confounds affect model evaluation](/publications/#clever-hans). I use behavioural analysis and interpretability methods to connect what models encode with how they behave, and to understand when evaluation results can be misleading.
 
+I hold a PhD in Computational Linguistics from Saarland University, where I studied how non-native and non-standard language varieties are misrepresented in NLP. Prior to that, I studied computer science and mathematics and worked on multimodal neural machine translation.
+
+Outside research, I enjoy travelling and old comics, especially [Astérix](https://papercutz.com/series/asterix/) and *[The Timid Soul](https://en.wikipedia.org/wiki/The_Timid_Soul)*. Recommendations welcome: training data attribution and provenance, especially their implications for fairness, or old comics. Happy to talk about either!
